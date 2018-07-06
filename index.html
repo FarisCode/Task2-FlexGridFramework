@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CSS FrameWork flex-based</title>
+    <link rel="stylesheet" href="css/flex-framework.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans:400,700" rel="stylesheet">
+
+
+</head>
+
+<body>
+    <div class="f-container">
+        <h1>Flex Grids:</h1>
+        <div class="f-row row">
+            <div class="f-col col">f-col</div>
+            <div class="f-col col">f-col</div>
+            <div class="f-col col">f-col</div>
+            <div class="f-col col">f-col</div>
+            <div class="f-col col">f-col</div>
+            <div class="f-col col">f-col</div>
+            <div class="f-col col">f-col</div>
+            <div class="f-col col">f-col</div>
+            <div class="f-col col">f-col</div>
+            <div class="f-col col">f-col</div>
+            <div class="f-col col">f-col</div>
+            <div class="f-col col">f-col</div>
+        </div>
+        <div class="f-row row">
+                <div class="f-col-4 col">f-col-4</div>
+                <div class="f-col-4 col">f-col-4</div>
+                <div class="f-col-4 col">f-col-4</div>
+        </div>
+        <div class="f-row row">
+                <div class="f-col-6 col">f-col-6</div>
+                <div class="f-col-6 col">f-col-6</div>
+        </div>
+        <div class="f-row row">
+                <div class="f-col-8 col">f-col-8</div>
+                <div class="f-col-4 col">f-col-4</div>
+        </div>
+        <div class="f-row row">
+                <div class="f-col-2 col">f-col-2</div>
+                <div class="f-col-8 col">f-col-8</div>
+                <div class="f-col-2 col">f-col-2</div>
+        </div>
+        <h1>Example Layout:</h1>
+        <div class="f-row">
+            <div class="f-col-12 heading"><span>Header (f-col-12)</span></div>
+        </div>
+        <div class="f-row">
+            <div class="f-col-3 sidebar f-sm-hidden"><span>Sidebar <br>(f-col-3)<br>(f-sm-hidden)</span></div>
+            <div class="f-col-9 main f-container-fluid">
+                <span>Main(f-col-9)</span>
+                <div class="f-row">
+                    <div class="box f-col-6"><p>This is a content <br>(f-col-6)</p></div>
+                    <div class="box f-col-6"><p>This is a content <br>(f-col-6)</p></div>
+                </div>
+            </div>
+        </div>
+        <div class="f-row">
+            <div class="f-col-12 footer"><Footer><span>Footer (f-col-12)</span></Footer></div>
+        </div>
+    </div>
+    <div class="marg-10"><hr></div>
+    <div class="container">
+        <button>Normal Button</button>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <button class="f-btn f-btn-sm">Small Button</button>
+        &nbsp;&nbsp;&nbsp;
+        <button class="f-btn">Normal Button</button>
+        &nbsp;&nbsp;&nbsp;
+        <button class="f-btn f-btn-lg">Large Button</button>
+        <div class="marg-10"><hr></div>
+        <img src="images/101097.jpg" class="f-img-rounded" />
+        <img src="images/101097.jpg" class="f-img-circle" />
+        <img src="images/101097.jpg" class="f-img-thumbnail" />
+        <div class="marg-10"><hr></div>
+        <input type="text" placeholder="Text input" /> &nbsp;&nbsp;&nbsp;
+        <input type="text" class="f-form" placeholder="Text input">
+        <div class="marg-5"></div>
+        <textarea class="f-form" placeholder="Text input" rows="3"></textarea>
+        <div class="marg-10"><hr></div>
+        <select>
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+        </select>
+        <div class="marg-5"></div>
+        <div>
+        <select class="f-form">
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+        </select>
+        <div class="marg-10"><hr></div>
+        <table>
+                <tr>
+                  <th>#</th>
+                  <th>Firstname</th>
+                  <th>Lastname</th> 
+                  <th>Age</th>
+                </tr>
+                <tr>
+                  <td>1</td>
+                  <td>Jill</td>
+                  <td>Smith</td> 
+                  <td>50</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>Eve</td>
+                  <td>Jackson</td> 
+                  <td>94</td>
+                </tr>
+              </table>
+              <br><br>
+        <table class="f-table">
+            <tr>
+              <th>#</th>
+              <th>Firstname</th>
+              <th>Lastname</th> 
+              <th>Age</th>
+            </tr>
+            <tr>
+              <td>1</td>
+              <td>Jill</td>
+              <td>Smith</td> 
+              <td>50</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>Eve</td>
+              <td>Jackson</td> 
+              <td>94</td>
+            </tr>
+          </table>
+    </div>
+</body>
+
+</html>

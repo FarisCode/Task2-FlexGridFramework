@@ -1,0 +1,166 @@
+/* CSS Framework flex-based */
+
+.f-container {
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    margin: auto;
+}
+
+.f-container-fluid {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+/* div.f-row>div[class*="f-col"]:not(:first-child){
+     margin-left: 20px;
+} */
+
+.f-container>.f-row,
+.f-container-fluid>.f-row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 3px;
+    align-items: center;
+}
+.f-container>.f-row>.f-col,
+.f-container-fluid>.f-row>.f-col {
+    width: 7.4%;
+}
+.f-container>.f-row>.f-col-2,
+.f-container-fluid>.f-row>.f-col-2 {
+    width: 15.8%;
+}
+.f-container>.f-row>.f-col-3,
+.f-container-fluid>.f-row>.f-col-3 {
+    width: 24.2%;
+}
+.f-container>.f-row>.f-col-4,
+.f-container-fluid>.f-row>.f-col-4 {
+    width: 32.6%;
+}
+.f-container>.f-row>.f-col-5,
+.f-container-fluid>.f-row>.f-col-5 {
+    width: 41%;
+}
+.f-container>.f-row>.f-col-6,
+.f-container-fluid>.f-row>.f-col-6 {
+    width: 49.4%;
+}
+.f-container>.f-row>.f-col-7,
+.f-container-fluid>.f-row>.f-col-7 {
+    width: 57.8%;
+}
+.f-container>.f-row>.f-col-8,
+.f-container-fluid>.f-row>.f-col-8 {
+    width: 66.2%;
+}
+.f-container>.f-row>.f-col-9,
+.f-container-fluid>.f-row>.f-col-9 {
+    width: 74.6%;
+}
+.f-container>.f-row>.f-col-10,
+.f-container-fluid>.f-row>.f-col-10 {
+    width: 83%;
+}
+.f-container>.f-row>.f-col-11,
+.f-container-fluid>.f-row>.f-col-11 {
+    width: 91.4%;
+}
+.f-container>.f-row>.f-col-12,
+.f-container-fluid>.f-row>.f-col-12 {
+    width: 100%;
+}
+.f-row>div[class*="f-col-"] {
+    box-sizing: border-box;
+}
+
+.f-btn {
+    border: 1px solid #bbb;
+    cursor: pointer;
+    border-radius: 3px;
+    padding: 6px 12px;
+    outline: none;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 1em;
+}
+
+.f-btn:hover {
+    opacity: 0.75;
+}
+
+.f-btn:active {
+    opacity: 0.9;
+}
+
+.f-btn-lg {
+    font-size: 1.2em;
+    font-weight: 500;
+    padding: 8px 14px;
+    border-radius: 4px;
+}
+
+.f-btn-sm {
+    font-size: 0.9em;
+    padding: 4px 7px;
+    border-radius: 2px;
+}
+
+.f-img-rounded {
+    border-radius: 5%;
+    -webkit-user-drag: none;
+}
+
+.f-img-circle {
+    -webkit-user-drag: none;
+    border-radius: 50%;
+}
+
+.f-img-thumbnail {
+    -webkit-user-drag: none;
+    border: 1px solid #bbb;
+    padding: 3px;
+    border-radius: 3px;
+}
+
+.f-form {
+    min-width: 200px;
+    padding: 5px 7px;
+    border-radius: 3px;
+    border: 1px solid #bbb;
+    outline-color: rgba(0, 255, 255, 0.5);
+}
+
+.f-form:hover {
+    opacity: 0.8;
+}
+
+.f-img-res {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+.f-table{
+    min-width: 400px;
+    border:1px solid #bbb;
+    border-radius: 4px;
+    padding: 10px;
+    line-height: 1.5em;
+}
+table.f-table>tr>td,table.f-table>tr>th{
+    min-width: 100px;
+    padding: 10px;
+    border: inherit;
+}
+.f-table tr th{
+    text-align: left;   
+}
+
+@media screen and (max-width:720px){
+    .f-sm-hidden{
+        display: none;
+    }
+}
