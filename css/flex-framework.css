@@ -14,10 +14,6 @@ body{
     flex-direction: column;
     width: 100%;
 }
-/* div.f-row>div[class*="f-col"]:not(:first-child){
-     margin-left: 20px;
-} */
-
 .f-container>.f-row,
 .f-container-fluid>.f-row {
     display: flex;

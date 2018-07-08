@@ -1,7 +1,23 @@
 * {
     font-family: 'Noto Sans', sans-serif;
 }
-
+body{
+    margin-top: 50px;
+}
+.code>pre{
+    width: 60%;
+    margin: auto;
+    padding: 20px; 
+    box-sizing: border-box;
+    background-color: #eff0f1;
+    font-size: 14px;
+}
+.code pre{
+    width: 100%;
+}
+.code pre span{
+    color: #7d2727
+}
 .heading,.footer {
     height: 30px;
     border-radius: 10px;

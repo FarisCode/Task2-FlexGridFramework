@@ -15,24 +15,25 @@
 
 <body>
 
-    <div class="f-sticky">
+    <nav class="f-sticky">
         <div class="f-nav">
             <div class="left">
-                <button class="logo"></button>            
-                <button class="links f-sm-hidden f-btn f-n-shadow">Link</button>            
-                <button class="links f-sm-hidden f-btn f-n-shadow">Link</button>            
+                <button class="logo"></button>
+                <button class="links f-sm-hidden f-btn f-n-shadow">Link</button>
+                <button class="links f-sm-hidden f-btn f-n-shadow">Link</button>
                 <button class="links f-sm-hidden f-btn f-n-shadow">Link</button>
             </div>
             <div class="right">
-                    <button class="links f-sm-hidden f-btn f-n-shadow">Sign Up</button>            
-                    <button class="links f-sm-hidden f-btn f-n-shadow">Login</button>
-                    <button class="links f-md-hidden f-btn f-n-shadow"></button>
+                <button class="links f-sm-hidden f-btn f-n-shadow">Sign Up</button>
+                <button class="links f-sm-hidden f-btn f-n-shadow">Login</button>
+                <button class="links f-md-hidden f-btn f-n-shadow"></button>
             </div>
         </div>
-        <div class="loader"></div>  
-    </div> 
+        <div class="loader"></div>
+    </nav>
     <div class="f-container">
-        <h1>Flex Grids:</h1>
+        <h1>CSS Framework</h1>
+        <h2>Flex Grids:</h2>
         <div class="f-row row">
             <div class="f-col col">f-col</div>
             <div class="f-col col">f-col</div>
@@ -48,24 +49,42 @@
             <div class="f-col col">f-col</div>
         </div>
         <div class="f-row row">
-                <div class="f-col-4 col">f-col-4</div>
-                <div class="f-col-4 col">f-col-4</div>
-                <div class="f-col-4 col">f-col-4</div>
+            <div class="f-col-4 col">f-col-4</div>
+            <div class="f-col-4 col">f-col-4</div>
+            <div class="f-col-4 col">f-col-4</div>
         </div>
         <div class="f-row row">
-                <div class="f-col-6 col">f-col-6</div>
-                <div class="f-col-6 col">f-col-6</div>
+            <div class="f-col-6 col">f-col-6</div>
+            <div class="f-col-6 col">f-col-6</div>
         </div>
         <div class="f-row row">
-                <div class="f-col-8 col">f-col-8</div>
-                <div class="f-col-4 col">f-col-4</div>
+            <div class="f-col-8 col">f-col-8</div>
+            <div class="f-col-4 col">f-col-4</div>
         </div>
         <div class="f-row row">
-                <div class="f-col-2 col">f-col-2</div>
-                <div class="f-col-8 col">f-col-8</div>
-                <div class="f-col-2 col">f-col-2</div>
+            <div class="f-col-2 col">f-col-2</div>
+            <div class="f-col-8 col">f-col-8</div>
+            <div class="f-col-2 col">f-col-2</div>
         </div>
-        <h1>Example Layout:</h1>
+
+        <div class="f-hr"></div>
+
+        <div class="code">
+            <h3>Code Example:</h3>
+            <pre>
+                &lt;div class=<span>"f-container"</span>&gt;
+                        &lt;div class=<span>"f-row"</span>&gt;
+                                &lt;div class=<span>"f-col-4"</span>>
+                                &lt;/div&gt;
+                                &lt;div class=<span>"f-col-4"</span>>
+                                &lt;/div&gt;
+                                &lt;div class=<span>"f-col-4"</span>>
+                        &lt;/div&gt;
+                &lt;/div&gt;
+            </pre>
+        </div>
+        <div class="marg-10"></div>
+        <h3>Example Layout:</h3>
         <!-- <div class="f-row">
             <div class="f-col-12 heading"><span>Header (f-col-12)</span></div>
         </div>
@@ -87,8 +106,9 @@
     <div class="f-container">
         <div class="f-row">
             <div class="f-box content f-n-shadow f-col-6" style="display: initial; text-align: left">
-                <h2>Layout Example (f-col-6)</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus molestiae quidem et sed dolore minima. Eligendi vel aliquid facere modi necessitatibus distinctio est culpa suscipit consectetur?</p>
+                <h4>Layout Example (f-col-6)</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus molestiae quidem et sed dolore minima.
+                    Eligendi vel aliquid facere modi necessitatibus distinctio est culpa suscipit consectetur?</p>
                 <button class="f-btn btn">Button#1</button>
                 <button class="f-btn btn">Button#2</button>
             </div>
@@ -100,127 +120,190 @@
             </div>
         </div>
     </div>
-        <div class="f-hr"></div>
-        <div class="f-container">
-            <div class="f-row">
-                <div class="f-box box f-col-4">
-                    <p>f-col-4</p>
-                </div>
-                <div class="f-box box f-col-4">
-                    <p>f-col-4</p>
-                </div>
-                <div class="f-box box f-col-4">
-                    <p>f-col-4</p>
-                </div>
+    <div class="f-hr"></div>
+    <div class="f-container">
+        <div class="f-row">
+            <div class="f-box box f-col-4">
+                <p>f-col-4</p>
             </div>
-            <div class="marg-5"></div>
-            <div class="f-row">
-                    <div class="f-box bar f-col-3">
-                            <p>f-col-3</p>
-                        </div>
-                        <div class="f-box bar f-col-3">
-                                <p>f-col-3</p>
-                            </div>
-                        <div class="f-box bar f-col-3">
-                            <p>f-col-3</p>
-                        </div>
-                        <div class="f-box bar f-col-3">
-                            <p>f-col-3</p>
-                        </div>
+            <div class="f-box box f-col-4">
+                <p>f-col-4</p>
             </div>
-            <div class="f-row">
-                    <div class="f-box barS f-col-3">
-                        <p>f-col-3</p>
-                    </div>
-                    <div class="f-box barS f-col-3">
-                            <p>f-col-3</p>
-                        </div>
-                    <div class="f-box barS f-col-3">
-                        <p>f-col-3</p>
-                    </div>
-                    <div class="f-box barS f-col-3">
-                        <p>f-col-3</p>
-                    </div>
+            <div class="f-box box f-col-4">
+                <p>f-col-4</p>
             </div>
         </div>
-    
-    <div class="marg-10"><hr></div>
-    <div class="container">
-        <button>Normal Button</button>
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <button class="f-btn f-btn-sm">Small Button</button>
-        &nbsp;&nbsp;&nbsp;
-        <button class="f-btn">Normal Button</button>
-        &nbsp;&nbsp;&nbsp;
-        <button class="f-btn f-btn-lg f-n-shadow">Large Button</button>
-        <div class="marg-10"><hr></div>
-        <img src="images/101097.jpg" class="f-img-rounded" />
-        <img src="images/101097.jpg" class="f-img-circle" />
-        <img src="images/101097.jpg" class="f-img-thumbnail" />
-        <div class="marg-10"><hr></div>
-        <input type="text" placeholder="Text input" /> &nbsp;&nbsp;&nbsp;
-        <input type="text" class="f-form" placeholder="Text input">
         <div class="marg-5"></div>
-        <textarea class="f-form" placeholder="Text input" rows="3"></textarea>
-        <div class="marg-10"><hr></div>
-        <select>
-            <option>1</option>
-            <option>2</option>
-            <option>3</option>
-            <option>4</option>
-            <option>5</option>
-        </select>
-        <div class="marg-5"></div>
-        <div>
-        <select class="f-form">
-            <option>1</option>
-            <option>2</option>
-            <option>3</option>
-            <option>4</option>
-            <option>5</option>
-        </select>
-        <div class="marg-10"><hr></div>
-        <table>
-                <tr>
-                  <th>#</th>
-                  <th>Firstname</th>
-                  <th>Lastname</th> 
-                  <th>Age</th>
-                </tr>
-                <tr>
-                  <td>1</td>
-                  <td>Jill</td>
-                  <td>Smith</td> 
-                  <td>50</td>
-                </tr>
-                <tr>
-                  <td>2</td>
-                  <td>Eve</td>
-                  <td>Jackson</td> 
-                  <td>94</td>
-                </tr>
-              </table>
-              <br><br>
-        <table class="f-table">
-            <tr>
-              <th>#</th>
-              <th>Firstname</th>
-              <th>Lastname</th> 
-              <th>Age</th>
-            </tr>
-            <tr>
-              <td>1</td>
-              <td>Jill</td>
-              <td>Smith</td> 
-              <td>50</td>
-            </tr>
-            <tr>
-              <td>2</td>
-              <td>Eve</td>
-              <td>Jackson</td> 
-              <td>94</td>
-            </tr>
-          </table>
+        <div class="f-row">
+            <div class="f-box bar f-col-3">
+                <p>f-col-3</p>
+            </div>
+            <div class="f-box bar f-col-3">
+                <p>f-col-3</p>
+            </div>
+            <div class="f-box bar f-col-3">
+                <p>f-col-3</p>
+            </div>
+            <div class="f-box bar f-col-3">
+                <p>f-col-3</p>
+            </div>
+        </div>
+        <div class="f-row">
+            <div class="f-box barS f-col-3">
+                <p>f-col-3</p>
+            </div>
+            <div class="f-box barS f-col-3">
+                <p>f-col-3</p>
+            </div>
+            <div class="f-box barS f-col-3">
+                <p>f-col-3</p>
+            </div>
+            <div class="f-box barS f-col-3">
+                <p>f-col-3</p>
+            </div>
+        </div>
     </div>
+    <div class="marg-10">
+        <div class="marg-10"></div>
+        <hr>
+    </div>
+    <div class="container">
+        <h2>Navbar:</h2>
+        <nav>
+            <div class="f-nav">
+                <div class="left">
+                    <button class="logo"></button>
+                    <button class="links f-sm-hidden f-btn f-n-shadow">Link</button>
+                    <button class="links f-sm-hidden f-btn f-n-shadow">Link</button>
+                    <button class="links f-sm-hidden f-btn f-n-shadow">Link</button>
+                </div>
+                <div class="right">
+                    <button class="links f-sm-hidden f-btn f-n-shadow">Sign Up</button>
+                    <button class="links f-sm-hidden f-btn f-n-shadow">Login</button>
+                    <button class="links f-md-hidden f-btn f-n-shadow"></button>
+                </div>
+            </div>
+            <div class="loader"></div>
+        </nav>
+        <div class="f-hr"></div>
+        <div class="code">
+            <h3>Code Example:</h3>
+            <pre>
+                            &lt;nav&gt
+                                    &lt;div class="<span>f-nav</span>"&gt
+                                            &lt;div class="<span>left</span>"&gt
+                                                    &lt;button class="<span>logo</span>"&gt&lt;/button&gt;
+                                                    &lt;button class="<span>links f-sm-hidden f-btn f-n-shadow</span>"&gtLink&lt;/button&gt;
+                                                    &lt;button class="<span>links f-sm-hidden f-btn f-n-shadow</span>"&gtLink&lt;/button&gt;
+                                                    &lt;button class="<span>links f-sm-hidden f-btn f-n-shadow</span>"&gtLink&lt;/button&gt;
+                                            &lt;/div&gt;
+                                            &lt;div class="<span>right</span>"&gt
+                                                    &lt;button class="<span>links f-sm-hidden f-btn f-n-shadow</span>"&gtSign Up&lt;/button&gt;
+                                                    &lt;button class="<span>links f-sm-hidden f-btn f-n-shadow</span>"&gtLogin&lt;/button&gt;
+                                                    &lt;button class="<span>links f-md-hidden f-btn f-n-shadow</span>"&gt&lt;/button&gt;
+                                            &lt;/div&gt;
+                                    &lt;/div&gt;
+                                    &lt;div class="<span>loader</span>"&gt&lt;/div&gt;
+                            &lt;/nav&gt;
+            </pre>
+            <span style="text-align: right" >*Add a class="f-sticky" in the nav tag to make navbar stick to top at all times</span>
+        </div>
+        <div class="marg-10">
+            <hr>
+            <h2>Button Material Design:</h2>
+            &emsp;&emsp;
+            <button class="f-btn f-btn-sm">Small Button</button>
+            &emsp;
+            <button class="f-btn">Normal Button</button>
+            &emsp;
+            <button class="f-btn f-btn-lg f-n-shadow">Large Button</button>
+            <div class="f-hr"></div>
+            <div class="code">
+                <h3>Code Example:</h3>
+                <pre>
+                    &lt;button class=<span>"f-btn f-btn-sm"</span>&gt;Small Button&lt;/button&gt;
+                    &lt;button class=<span>"f-btn"</span>&gt;Normal Button&lt;/button&gt;
+                    &lt;button class=<span>"f-btn f-btn-lg f-n-shadow"</span>&gt;Large Button&lt;/button&gt;
+                </pre>
+            </div>
+            <div class="marg-10">
+                <hr>
+            </div>
+            <h2>Image Designs:</h2>
+            <img src="images/101097.jpg" class="f-img-rounded" />
+            <img src="images/101097.jpg" class="f-img-circle" />
+            <img src="images/101097.jpg" class="f-img-thumbnail" />
+            <div class="f-hr"></div>
+            <div class="code">
+                <h3>Code Example:</h3>
+                <pre>
+                    &lt;img src="images/101097.jpg" class="<span>f-img-rounded</span>"&gt;
+                    &lt;img src="images/101097.jpg" class="<span>f-img-circle</span>"&gt;
+                    &lt;img src="images/101097.jpg" class="<span>f-img-thumbnail</span>"&gt;
+                </pre>
+            </div>
+            <div class="marg-10">
+                <hr>
+            </div>
+            <input type="text" placeholder="Text input" /> &nbsp;&nbsp;&nbsp;
+            <input type="text" class="f-form" placeholder="Text input">
+            <div class="marg-5"></div>
+            <textarea class="f-form" placeholder="Text input" rows="3"></textarea>
+            <div class="marg-5"></div>
+            <div>
+                <select class="f-form">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                </select>
+                <div class="marg-10">
+                    <hr>
+                </div>
+                <table>
+                    <tr>
+                        <th>#</th>
+                        <th>Firstname</th>
+                        <th>Lastname</th>
+                        <th>Age</th>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>Jill</td>
+                        <td>Smith</td>
+                        <td>50</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Eve</td>
+                        <td>Jackson</td>
+                        <td>94</td>
+                    </tr>
+                </table>
+                <br>
+                <br>
+                <table class="f-table">
+                    <tr>
+                        <th>#</th>
+                        <th>Firstname</th>
+                        <th>Lastname</th>
+                        <th>Age</th>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>Jill</td>
+                        <td>Smith</td>
+                        <td>50</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Eve</td>
+                        <td>Jackson</td>
+                        <td>94</td>
+                    </tr>
+                </table>
+            </div>
 </body>
+
 </html>
