@@ -14,6 +14,23 @@
 </head>
 
 <body>
+
+    <div class="f-sticky">
+        <div class="f-nav">
+            <div class="left">
+                <button class="logo"></button>            
+                <button class="links f-sm-hidden f-btn f-n-shadow">Link</button>            
+                <button class="links f-sm-hidden f-btn f-n-shadow">Link</button>            
+                <button class="links f-sm-hidden f-btn f-n-shadow">Link</button>
+            </div>
+            <div class="right">
+                    <button class="links f-sm-hidden f-btn f-n-shadow">Sign Up</button>            
+                    <button class="links f-sm-hidden f-btn f-n-shadow">Login</button>
+                    <button class="links f-md-hidden f-btn f-n-shadow"></button>
+            </div>
+        </div>
+        <div class="loader"></div>  
+    </div> 
     <div class="f-container">
         <h1>Flex Grids:</h1>
         <div class="f-row row">
@@ -49,7 +66,7 @@
                 <div class="f-col-2 col">f-col-2</div>
         </div>
         <h1>Example Layout:</h1>
-        <div class="f-row">
+        <!-- <div class="f-row">
             <div class="f-col-12 heading"><span>Header (f-col-12)</span></div>
         </div>
         <div class="f-row">
@@ -57,15 +74,76 @@
             <div class="f-col-9 main f-container-fluid">
                 <span>Main(f-col-9)</span>
                 <div class="f-row">
-                    <div class="box f-col-6"><p>This is a content <br>(f-col-6)</p></div>
-                    <div class="box f-col-6"><p>This is a content <br>(f-col-6)</p></div>
+                    <div class="f-box box f-col-6"><p>This is a content <br>(f-col-6)</p></div>
+                    <div class="f-box box f-col-6"><p>This is a content <br>(f-col-6)</p></div>
                 </div>
             </div>
         </div>
         <div class="f-row">
             <div class="f-col-12 footer"><Footer><span>Footer (f-col-12)</span></Footer></div>
+        </div> -->
+        <div class="marg-10"></div>
+    </div>
+    <div class="f-container">
+        <div class="f-row">
+            <div class="f-box content f-n-shadow f-col-6" style="display: initial; text-align: left">
+                <h2>Layout Example (f-col-6)</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus molestiae quidem et sed dolore minima. Eligendi vel aliquid facere modi necessitatibus distinctio est culpa suscipit consectetur?</p>
+                <button class="f-btn btn">Button#1</button>
+                <button class="f-btn btn">Button#2</button>
+            </div>
+            <div class="f-box box f-col-3">
+                <p>f-col-3</p>
+            </div>
+            <div class="f-box box f-col-3">
+                <p>f-col-3</p>
+            </div>
         </div>
     </div>
+        <div class="f-hr"></div>
+        <div class="f-container">
+            <div class="f-row">
+                <div class="f-box box f-col-4">
+                    <p>f-col-4</p>
+                </div>
+                <div class="f-box box f-col-4">
+                    <p>f-col-4</p>
+                </div>
+                <div class="f-box box f-col-4">
+                    <p>f-col-4</p>
+                </div>
+            </div>
+            <div class="marg-5"></div>
+            <div class="f-row">
+                    <div class="f-box bar f-col-3">
+                            <p>f-col-3</p>
+                        </div>
+                        <div class="f-box bar f-col-3">
+                                <p>f-col-3</p>
+                            </div>
+                        <div class="f-box bar f-col-3">
+                            <p>f-col-3</p>
+                        </div>
+                        <div class="f-box bar f-col-3">
+                            <p>f-col-3</p>
+                        </div>
+            </div>
+            <div class="f-row">
+                    <div class="f-box barS f-col-3">
+                        <p>f-col-3</p>
+                    </div>
+                    <div class="f-box barS f-col-3">
+                            <p>f-col-3</p>
+                        </div>
+                    <div class="f-box barS f-col-3">
+                        <p>f-col-3</p>
+                    </div>
+                    <div class="f-box barS f-col-3">
+                        <p>f-col-3</p>
+                    </div>
+            </div>
+        </div>
+    
     <div class="marg-10"><hr></div>
     <div class="container">
         <button>Normal Button</button>
@@ -74,7 +152,7 @@
         &nbsp;&nbsp;&nbsp;
         <button class="f-btn">Normal Button</button>
         &nbsp;&nbsp;&nbsp;
-        <button class="f-btn f-btn-lg">Large Button</button>
+        <button class="f-btn f-btn-lg f-n-shadow">Large Button</button>
         <div class="marg-10"><hr></div>
         <img src="images/101097.jpg" class="f-img-rounded" />
         <img src="images/101097.jpg" class="f-img-circle" />
@@ -145,5 +223,4 @@
           </table>
     </div>
 </body>
-
 </html>

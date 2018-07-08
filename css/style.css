@@ -9,12 +9,40 @@
     border: 2px solid black;
     background-color: rgb(71, 255, 194);
 }
+.btn{
+    background-color:#05526a;
+    color: #fff;
+}
 .box{
-    width: 40%;
-    height: 450px;
-    border: 2px solid black;
-    background-color: burlywood;
-    color: #000;
+    /* width: 40%; */
+    height: 250px;
+    background-color: #ced4d6;
+    color: #fff;
+}
+.f-box{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.bar{
+    height: 30px;
+    background-color: #ced4d6;
+    color: #fff;
+    text-align: center;
+}
+.barS{
+    height: 30px;
+    background-color: #ececec;
+    color: #333;
+    text-align: center;
+    margin-top: 5px;
+}
+.f-hr{
+    margin: 30px auto;
+}
+.content{
+    height: 250px;
+    padding: 15px;  
 }
 .sidebar {
     height: 500px;
@@ -64,7 +92,7 @@
     }
 }
 @media screen and (min-width:1000px){
-    .f-container{
+    .f-container,.f-hr{
         width: 80%;
     }
 }
