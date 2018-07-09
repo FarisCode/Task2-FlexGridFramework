@@ -105,7 +105,7 @@
     </div>
     <div class="f-container">
         <div class="f-row">
-            <div class="f-box content f-n-shadow f-col-6" style="display: initial; text-align: left">
+            <div class="f-box content f-n-shadow f-col-6" style="display: initial; overflow: auto; text-align: left">
                 <h4>Layout Example (f-col-6)</h4>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus molestiae quidem et sed dolore minima.
                     Eligendi vel aliquid facere modi necessitatibus distinctio est culpa suscipit consectetur?</p>
@@ -208,8 +208,33 @@
             </pre>
             <span style="text-align: right" >*Add a class="f-sticky" in the nav tag to make navbar stick to top at all times</span>
         </div>
-        <div class="marg-10">
-            <hr>
+        <div class="marg-10"><hr></div>
+        <h2>BreadCrumbs:</h2>
+            
+            <div class="f-bread">
+                <ul>
+                    <li><a href="#">One</a></li>
+                    <li><a href="#">Two</a></li>
+                    <li><a href="#">Three</a></li>
+                    <li><a href="#">Four</a></li>
+                    <li><a href="#">Five</a></li>
+                </ul>
+            </div>
+            <div class="code">
+                <h3>Code Example:</h3>
+                <pre>
+                    &lt;div class=<span>"f-bread"</span>&gt;
+                        &lt;ul&gt;
+                            &lt;li&gt;&lt;a href="#"&gt;One&lt;/a&gt;&lt;/li&gt;
+                            &lt;li&gt;&lt;a href="#"&gt;Two&lt;/a&gt;&lt;/li&gt;
+                            &lt;li&gt;&lt;a href="#"&gt;Three&lt;/a&gt;&lt;/li&gt;
+                            &lt;li&gt;&lt;a href="#"&gt;Four&lt;/a&gt;&lt;/li&gt;
+                            &lt;li&gt;&lt;a href="#"&gt;Five&lt;/a&gt;&lt;/li&gt;
+                        &lt;/ul&gt;
+                    &lt;/div&gt;
+                </pre>
+            </div>
+        <div class="marg-10"><hr></div>
             <h2>Button Material Design:</h2>
             &emsp;&emsp;
             <button class="f-btn f-btn-sm">Small Button</button>
